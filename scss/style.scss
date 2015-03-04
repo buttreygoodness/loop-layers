@@ -12,5 +12,26 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 link color: #3D454C
 border color: #CCC
 light blue: #009DF3
+text color: #402B35
+loop green: #0AA24A
 
 */
+
+* {
+  color: #402B35;
+}
+
+.nav-horizontal li a {
+  color: #0AA24A !important;
+}
+
+.sub-menu {
+  border: 1px solid #ddd !important;
+
+  li {  
+    a:hover {
+      background-color: #0AA24A !important;
+      color: #ffffff !important;
+    }
+  }
+}
